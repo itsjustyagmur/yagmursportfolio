@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Rokkitt', serif;
+    background-image: url(../images/wood.jpg);
+    font-size: 140%;
+   }
+
+   nav {
+    margin-top: 15px;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index:99;
+    }
+    
+    .sidebar h2 {
+    color: black;
+    font-size: 30px;
+    }
+    
+    .sidebar {
+    font-size: 30px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 30%;            
+    }
+        
+    ul {
+    list-style: none;
+    margin-top: 155px;
+    }
+          
+    a { 
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1;
+    }
+          
+    a span {
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.5s;
+    color: black;
+    }
+    
+    a span:nth-child(2){
+    max-width: 0px;
+    overflow: hidden;
+    }
+    
+    .links:hover a span {
+    max-width: 200px;
+    color:black;
+    }
+          
+    .links:hover a:hover span {
+    max-width:200px;
+    color:darkred;
+    }
+    .resume:hover{
+        color: darkred;
+    }
+
+
+.container {
+    width: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.introDiv {
+    font-family: 'Amatic SC', cursive;
+    font-size: 10pt;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-weight: bolder;
+    margin-top: 8%;
+    color: black;
+
+}
+.introDiv h1{
+    font-size: 60pt;
+}
+.introDiv p{
+    font-size: 30pt;
+}
+
+.aboutSection {
+    text-align: center;
+    color: black;
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+#about h1{
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 10%;
+}
+.aboutParagraph {
+    text-align: left;
+    color:black;
+    font-weight:bolder;
+}
+
+.portfolio {
+    color:  black;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+
+}
+
+.thumbnailWrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    
+}
+
+.imgMod {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    margin: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.projectName {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.projectName:hover{
+    color:darkred;
+    text-decoration: none;
+}
+img{
+    opacity: .8;
+    transition: .5s;
+}
+img:hover{
+    opacity: 1.5;
+}
+.contact {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+}
+#utton{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Amatic SC', cursive;
+    background-color: white;
+    color: black;
+
+}
+#utton:hover{
+    background-color: grey;
+    color:white;
+}
+button {
+    border-radius: 5px;
+    margin-bottom: 1%;
+    border-color: black;
+    padding-bottom:7px;
+}
+#icon{
+    font-size: 30px;
+    background-color: white;
+    color: black;
+}
+#icon:hover{
+    background-color: grey;
+    color:white;
+}
+
+.footer {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color:black;
+    font-size: 100%;
+    padding: 1%;
+}
